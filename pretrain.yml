@@ -1,0 +1,34 @@
+save_dir: ckpt/enpar_pretrain
+pretrained_model_path: ckpt/enpar_pretrain/pretrained_models/model
+train_model_dir: ckpt/enpar_pretrain/pretrained_models
+max_sent_len: 200
+max_wordpiece_len: 512
+entity_schema: BIEOU
+low_case: 0
+
+entity_cnn_kernel_sizes: [2, 3, 4]
+entity_cnn_output_channels: 100
+context_cnn_kernel_sizes: [3, 4, 5]
+context_cnn_output_channels: 100
+ent_output_size: 192
+context_output_size: 128
+ent_mention_output_size: 256
+ent_batch_size: 128
+dropout: 0.1
+bert_model_name: bert-base-cased
+bert_output_size: 0
+bert_dropout: 0.1
+
+gradient_clipping: 1.0
+learning_rate: 5e-5
+adam_beta1: 0.9
+adam_beta2: 0.999
+adam_epsilon: 1e-6
+adam_weight_decay_rate: 0.01
+
+seed: 5216
+device: -1
+root_log_level: DEBUG
+log_file: ckpt/enpar_pretrain/pretrain.log
+console_log_level: NOTSET
+file_log_level: NOTSET
