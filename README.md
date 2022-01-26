@@ -1,5 +1,7 @@
 # PSPE
-Source code of EACL2021 paper ["ENPAR: Enhancing Entity and Entity Pair Representations for Joint Entity Relation Extraction."](https://www.aclweb.org/anthology/2021.eacl-main.251.pdf).
+Source code of EACL2021 paper ["ENPAR: Enhancing Entity and Entity Pair Representations for Joint Entity Relation Extraction."](https://www.aclweb.org/anthology/2021.eacl-main.251/).
+
+It is based on our [NERE](https://github.com/Receiling/NERE) toolkit.
 
 ## Requirements
 * `python`: 3.7.6
