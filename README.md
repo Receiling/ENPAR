@@ -1,4 +1,4 @@
-# PSPE
+# ENPAR
 Source code of EACL2021 paper ["ENPAR: Enhancing Entity and Entity Pair Representations for Joint Entity Relation Extraction."](https://www.aclweb.org/anthology/2021.eacl-main.251/).
 
 It is based on our [NERE](https://github.com/Receiling/NERE) toolkit.
@@ -26,7 +26,7 @@ $ python entity_relation_extractor_pretrain.py \
 ```
 
 ## Fine-tuning
-Before fine-tuning, please download the pre-trained model [`ENPAR`](https://pan.baidu.com/s/1ice6IkZFBQhSl8LMhf-Chg)(password: 2imb), and place the pre-trained model in the folder main folder. And make sure that the format of the dataset must be the same as [`data/demo/train.json`](https://github.com/Receiling/ENPAR/blob/master/data/demo/train.json).
+Before fine-tuning, please download the pre-trained model [`ENPAR`](https://pan.baidu.com/s/1Qjs30iBHOUIX6yV9Q1-pBA)(password: tpvq), and place the pre-trained model in the folder main folder. And make sure that the format of the dataset must be the same as [`data/demo/train.json`](https://github.com/Receiling/ENPAR/blob/master/data/demo/train.json).
 ```bash 
 python entity_relation_extractor.py \
                         --config_file finetune.yml \
